@@ -1,0 +1,133 @@
+/* ALL PRODUCT PAGE */
+.ui.divider{
+    width: 1000px;
+    vertical-align: middle;
+}
+
+.text{
+    text-align: center;
+}
+
+.ui.grid.container{
+    margin-top: 30px;
+}
+
+.pagination{
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.pagination > a{
+    margin: 10px;
+    color: #000;
+    text-decoration: none;
+}
+
+.test{
+    color: #000;
+    text-decoration: none;
+}
+
+body { background: #FCF; }
+        
+.divider {		
+    letter-spacing: 2px;					
+    display: table; 
+    font-size: 24px; 
+    text-align: center; 
+    width: 60%; 						
+    margin: 40px auto;					
+}
+.divider span { display: table-cell; position: relative; }
+.divider span:first-child, .divider span:last-child {
+    width: 50%;
+    top: 13px;							
+    -moz-background-size: 100% 2px; 	
+    background-size: 100% 2px; 			
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+}
+.divider span:first-child {				
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(transparent), to(#000));
+    background-image: -webkit-linear-gradient(180deg, transparent, #000);
+    background-image: -moz-linear-gradient(180deg, transparent, #000);
+    background-image: -o-linear-gradient(180deg, transparent, #000);
+    background-image: linear-gradient(90deg, transparent, #000);
+}
+.divider span:nth-child(2) {
+    color: #000; padding: 0px 5px; width: auto; white-space: nowrap;
+}
+.divider span:last-child {				
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+    background-image: -webkit-linear-gradient(180deg, #000, transparent);
+    background-image: -moz-linear-gradient(180deg, #000, transparent);
+    background-image: -o-linear-gradient(180deg, #000, transparent);
+    background-image: linear-gradient(90deg, #000, transparent);
+}
+
+/* Page Produit */
+
+.product{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.images{
+    width: 600px;
+    margin: 50px;
+}
+
+.ui.large.rounded.image{
+    margin-bottom : 20px;
+    width: 500px;
+}
+
+.content{
+    width : 600px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.description{
+    margin-top: 30px;
+}
+
+.platform{
+    margin-top: 20px;
+}
+.quantité{
+    margin-top: 20px;
+}
+
+.price{
+    margin-top: 30px;
+}
+
+.buy{
+    margin-top: 40px;
+}
+
+.errors{
+    color: red;
+}
+
+.ui.form{
+    margin: 20 auto;
+    width: 800px;
+    background-color: white;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    -moz-box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    box-shadow: 0px 0px 6px 3px rgba(0,0,0,0.48);
+    border-radius: 5px;
+}
+
+#titleEdit{
+    margin-top: 50px;
+}
+
+.addGame{
+    text-align: center;
+    margin: 20px;
+}
